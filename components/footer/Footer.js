@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <Container maxW="container.xl">
-      <Stack padding="3" bg="purple.900">
+    <Container maxW="1440px" p={0}>
+      <Stack padding="3" bg="purple.900" w="1440px" maxW="100vw" mb={0.5}>
         <Text
           alignSelf="center"
           color="gray.50"
