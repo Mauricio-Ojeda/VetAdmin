@@ -2,7 +2,7 @@ import { Stack, Text } from "@chakra-ui/react";
 
 export default function Logo(props) {
   return (
-    <Stack direction="row" {...props} spacing={0}>
+    <Stack direction="row" {...props} spacing={0} pl={2}>
       <Text color="pink.300" fontSize="lg" fontWeight="bold" p={0}>
         V
       </Text>
